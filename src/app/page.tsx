@@ -10,14 +10,7 @@ export default function Home() {
       <main className="min-h-screen">
         {/* Navigation */}
         <nav className="flex flex-col md:flex-row justify-between items-center p-6 bg-black border-b border-gray-800 space-y-4 md:space-y-0">
-          <div className="text-2xl font-bold text-white">AP</div>
-          <div className="flex flex-wrap justify-center space-x-4 md:space-x-6">
-            <Link href="/about" className="hover:text-gray-300 text-white">about</Link>
-            <Link href="/book" className="hover:text-gray-300 text-white">book</Link>
-            <Link href="/portfolio" className="hover:text-gray-300 text-white">portfolio</Link>
-            <Link href="/blog" className="hover:text-gray-300 text-white">blog</Link>
-            <Link href="/contact" className="hover:text-gray-300 text-white">contact</Link>
-          </div>
+          <div className="text-2xl font-bold text-white">kael</div>
           <div className="flex space-x-4">
             <Link href="#" className="hover:text-gray-300 text-white"><FaTwitter size={20} /></Link>
             <Link href="#" className="hover:text-gray-300 text-white"><FaLinkedin size={20} /></Link>
@@ -57,7 +50,7 @@ export default function Home() {
           </div>
 
           <div className="w-full lg:w-1/3 text-center lg:text-right mt-8 lg:mt-0 lg:absolute lg:right-20 lg:top-1/2 lg:-translate-y-1/2 z-10">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-white">&lt;coder&gt;</h1>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-white">&lt;coder /&gt;</h1>
             <p className="text-gray-400 text-lg md:text-xl">
               Front end developer who writes<br className="hidden lg:block" />clean, elegant and efficient code.
             </p>
